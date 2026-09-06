@@ -121,7 +121,7 @@ def build():
     rss = ET.Element("rss", {"version": "2.0"})
     ch = ET.SubElement(rss, "channel")
     ET.SubElement(ch, "title").text = "Applied Linguistics — Calls for Papers"
-    ET.SubElement(ch, "link").text = "https://YOUR-USERNAME.github.io/YOUR-REPO/feed.xml"
+    ET.SubElement(ch, "link").text = "https://https://github.com/patrickpengzhang-ui/applied-linguistics-cfp-rss/feed.xml"
     ET.SubElement(ch, "description").text = (
         "Automatically filtered calls for papers, calls for abstracts, "
         "and related publication opportunities in applied linguistics."
